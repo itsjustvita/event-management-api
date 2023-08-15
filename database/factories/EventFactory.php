@@ -17,7 +17,7 @@ class EventFactory extends Factory
     public function definition(): array
     {
         return [
-            'name' => $this->unique()->sentence(),
+            'name' => $this->faker->sentence(),
             'description' => $this->faker->paragraph(),
             'start_time' => $this->faker->dateTimeBetween('now', '+1 months'),
             'end_time' => $this->faker->dateTimeBetween('+1 months', '+2 months'),
