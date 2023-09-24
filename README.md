@@ -11,3 +11,7 @@ This is a simple event management system that allows users to create, edit, and 
 2. Navigate to `localhost:8000` in your browser
 3. Register an account
 4. Create, edit, and delete events
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+```
